@@ -23,9 +23,9 @@
       <div class="app_background">
         <div class="search_section">
           <div class="search_icon">
-            <img src="images/search_icon.png" />
+            <img class="icon" src="images/search_icon.png" />
+            <input class="search_bar" type="text" placeholder="search bus stops or bus route numbers" />
           </div>
-          <p>search bus stops or bus route numbers</p>
           <div class="close_button">
             <img src="images/close_button.png" />
           </div>
@@ -38,64 +38,39 @@
           </div>
         </div>
 
-        <div class="bus_list">
-          <h3>Buses</h3>
-            <div class="bus_containers">
-              <img src="images/reroute.png" />
-              <ul>
-                <li><h4>6x</h4></li>
-                <li><h5>Jackson Park express</h5></li>
-                <div class="frequencies">
-                  <ol>
-                    <li><h4>N/A</h4></li>
-                  </ol>
-                </div>
-              </ul>
-            </div>
-
-              <div class="bus_containers">
-                <img src="images/bus_icon.png" />
-                <ul>
-                  <li><h4>#151 Northbound</h4></li>
-                  <li><h5>Devon/Clark</h5></li>
-                  <div class ="frequencies">
-                    <ol>
-                      <li><h4>1 minute</h4></li>
-                      <li><h5>8 min</h5></li>
-                      <li><h5>16 min</h5></li>
-                    </ol>
-                  </div>
-                </ul>
+        <div class="bus_title"><h3>Buses</h3></div>
+        <ul>
+          <li>
+            <div class="icons_directions">
+              <img class="icons" src="images/reroute.png" />
+              <div class="bus_directions">
+                <h4>6X</h4>
+                <h5>Jackson Park Express</h5>
               </div>
-
-            <div class="bus_containers">
-              <img src="images/bus_icon.png" />
             </div>
 
-            <div class="bus_containers">
-              <img src="images/bus_icon.png" />
+            <div class="na_frequencies">
+              <h4>N/A</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="icons_directions">
+              <img class="icons" src="images/bus_icon.png" />
+                <div class="bus_directions">
+                  <h4>#151 Northbound</h4>
+                  <h5>Devon/Clark</h5>
+              </div>
             </div>
 
-
-              <img src="images/bus_icon.png" />
-
-
-          <h3>Out of service</h3>
-            <div class="bus_containers">
-              <img src="images/out_of_service.png" />
+            <div class="frequencies">
+              <h4>1 minute</h4>
+              <h5>8 min</h5>
+              <h5>16 min</h5>
             </div>
+          </li>
 
-
-            <div class="bus_containers">
-              <img src="images/out_of_service.png" />
-            </div>
-
-            <div class="bus_container">
-              <img src="images/out_of_service.png" />
-            </div>
-
-        </div>
-      </div>
+        </ul>
 
     </div> <!--inner-container-->
 
