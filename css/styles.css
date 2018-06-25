@@ -164,13 +164,28 @@ h4 {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   color: #29272D;
   font-size: 1.5em;
-  line-height: 2em;
   float: right;
   margin-right: 25px;
   padding-top: 50px;
   color: #5863A4;
 
 }
+
+h5 {
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  color: #979797;
+  font-size: 1.2em;
+  float: right;
+  margin-right: 25px;
+  padding-top: 50px;
+}
+
+.bus_container {
+
+}
+
+
+
 
 .out_of_service {
   min-height: 50px;
